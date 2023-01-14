@@ -14,8 +14,8 @@ export default {
             query: ''
         }
     },
-    methods:{
-        handleSearch(){
+    methods: {
+        handleSearch() {
             this.$emit('searchRequested', this.query)
         }
     }
@@ -23,13 +23,14 @@ export default {
 </script>
 
 <style>
-.search{
+.search {
     padding: 1rem;
     border: 1px solid red;
     border-radius: 5px;
     width: 400px;
 }
-.search button{
+
+.search button {
     padding: 1rem;
     border: 1px solid blue;
     background-color: lime;

@@ -3,9 +3,9 @@
     <div>
         <ul>
             <li v-for="gif in gifs">
-                <img :src="gif.images.fixed_height.url" alt=""/>
+                <img :src="gif.images.fixed_height.url" alt="" />
                 <!-- <img v-bind:src="gif.images.fixed_height.url" alt=""> -->
-            </li>           
+            </li>
         </ul>
     </div>
 </template>
@@ -23,7 +23,7 @@ ul {
     border: 2px solid tomato;
 }
 
-li{
+li {
     list-style: none;
     float: left;
     margin: 1rem;
